@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<script>
+		var shiftWindow = function() { scrollBy(0, -65) };
+		window.addEventListener("hashchange", shiftWindow);
+		function load() { if (window.location.hash) shiftWindow(); }
+  </script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+    <h1></h1>
+	
+		<!-- Navigation -->
+		<nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-light">
+			<span class="border-bottom"></span>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="#">
+				<img src="./brain-computer-interface.png" width="120" height="58" alt="">
+			</a>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a style="font-size:20px" class="nav-link" href="#Soft Skills"><strong>Soft Skills</strong><span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a style="font-size:20px" class="nav-link" href="#Hard Skills"><strong>Hard Skills</strong></a>
+					</li>
+					<li class="nav-item">
+						<a style="font-size:20px" class="nav-link" href="#Just Right Skills"><strong>Just Right Skills</strong></a>
+					</li>
+					<li class="nav-item dropdown">
+						<a style="font-size:20px" class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  <strong>Experience and Featured Work</strong>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						  <a class="dropdown-item" href="https://github.com/Jeff-W-Ferrell/Tech-Academy-Projects" target="_blank">GitHub</a>
+						  <a class="dropdown-item" href="https://www.linkedin.com/in/jeff-ferrell-30952a113/" target="_blank">LinkedIn</a>
+						  <a class="dropdown-item" href="#underwater">Recent Projects</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- /Navigation -->
+		
+		<!-- jumbotron -->
+			<div class="jumbotron jumbotron-fluid text-center bg-light mb-0">
+				<div class="container">
+					<span class="border-top"></span>
+					<h1 class="display-2">Hello, my name is Jeff and I'm here to help</h1>
+						</br>
+					<p style="font-size:30px" class="lead mb-0">But first we'll need to get some demons out of this magic light box...</p>
+						</br>
+					<a class="btn btn-light btn-lg my-4" href="#caveman" role="button"><strong>Go Caveman</strong></a>
+						</br>
+						</br>
+						</br>
+						</br>
+						</br>
+						</br>
+						</br>
+					<img id="caveman" src="./otcxe.jpg" class="img-fluid" width="100% \9;" height="auto" alt="Responsive image">
+				</div>
+			</div>
+		<!-- /jumbotron -->
+		
+		<!-- Card Group -->
+			<div class="card-group">
+				<div class="card">
+					<img class="card-img-top" id="Soft Skills" src="./softskills.jpg" height="250" width="auto" alt="Card image cap">
+					<div class="card-block">
+						<h4 class="card-title">Soft Skills</h4>
+						<p class="card-text">Impeccable and uncanny people skills: Anticipator, Listener, Communicator, Coordinator, Fixer, Doer.</p>
+						<p class="font-italic" class="card-text"><small class="text-muted">I'm a people person's person</small></p>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" id="Hard Skills" src="./hardskills.jpg" height="250" width="auto" alt="Card image cap">
+					<div class="card-block">
+						<h4 class="card-title">Hard Skills</h4>
+						<p class="card-text">What do you need done?  I can help you with that.  If I don't already know what to do, I'll ask Jeeves.</p>
+						<p class="font-italic" class="card-text"><small class="text-muted">My muscles are in my mind</small></p>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" id="Just Right Skills" src="./Garfield.png" height="250" width="auto" alt="Card image cap">
+					<div class="card-block">
+						<h4 class="card-title">Just Right Skills</h4>
+						<p class="card-text">I'm the team glue, the gear grease, the worker bee, and the steady handed tillerman.  Relax, I can do this.</p>
+						<p class="font-italic" class="card-text"><small class="text-muted">It's who I am and it's what I do.</small></p>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<!-- /Card Group -->
+		
+		<!-- Carousel Test -->
+		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner" role="listbox">
+				<div class="carousel-item active">
+					<img class="d-block img-fluid" width="100%" height="100%" src="./Portlandpixels.jpg" alt="bridgetown">
+					<div class="carousel-caption d-none d-md-block p-0">
+						<h2>When the sun goes down, I take the computer to school.</h2>
+						</br>
+						<p style="font-size:25px"><strong>Or is it the other way around...?</strong></p>
+					</div>
+				</div>		
+			</div>
+		<!-- /Carousel Test -->
+		
+		<!-- Responsive Image -->
+		<div class=".container-fluid my-0 mt-0">
+			<div class="set7">
+				<div class="row text-center">
+					<div class="feelinlike text-center image">
+						<img id="underwater" src="./feelin like.jpg" class="img-fluid" width="100% \9;" height="100%" alt="Responsive image">
+						<div class="feelinlike">
+							<br />
+							<h6 style="font-size:32px">Here I am at my workstation coding my latest project.</h6>
+							<p class="font-italic" style="font-size:16px">- I really shouldn't have that beverage by my computer. -</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Resposive Image -->
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
