@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<script>
+		var shiftWindow = function() { scrollBy(0, -65) };
+		window.addEventListener("hashchange", shiftWindow);
+		function load() { if (window.location.hash) shiftWindow(); }
+  </script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="./main.css">
+	
+	<!-- Additional jQuery functionality -->
+
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<!-- /Additional jQuery functionality -->
+  
+  </head>
+  <body>
+    <h1></h1>
+	
+		<!-- Navigation -->
+		<nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-light">
+			<span class="border-bottom"></span>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="#">
+				<img src="./brain-computer-interface.png" width="120" height="58" alt="">
+			</a>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a style="font-size:20px" class="nav-link" href="#"><strong>Home</strong><span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a style="font-size:20px" class="nav-link" href="#Skills"><strong>Skills Overview</strong></a>
+					</li>
+					<li class="nav-item">
+						<a style="font-size:20px" class="nav-link" href="#bio"><strong>Leadership Experience</strong></a>
+					</li>
+					<li class="nav-item dropdown">
+						<a style="font-size:20px" class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  <strong>Education and Featured Work</strong>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						  <a class="dropdown-item" href="https://github.com/Jeff-W-Ferrell?tab=repositories" target="_blank">GitHub</a>
+						  <a class="dropdown-item" href="https://www.linkedin.com/in/jeff-ferrell-30952a113/" target="_blank">LinkedIn</a>
+						  <a class="dropdown-item" href="#underwater">Recent Projects</a>
+						</div>			
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- /Navigation -->
+		
+		<!-- jumbotron -->
+			<div class="jumbotron jumbotron-fluid text-center bg-light mb-0">
+				<div class="container">
+					<span class="border-top"></span>
+					<h1 class="display-2">Jeff Ferrell</h1>
+					<h3 class="display-3">Full Stack Software Developer</h3>
+					<!-- <p style="font-size:30px" class="lead mb-0">But first we'll need to get some demons out of this magic light box...</p> -->
+					<!--	</br> -->
+					<!--<a class="btn btn-light btn-lg my-4" id="gcmbtn" href="#caveman" role="button"><strong>Go</strong></a>-->
+					<!--	</br> -->					
+					<!--<img id="caveman" src="./otcxe.jpg" class="img-fluid" width="100% \9;" height="auto" alt="Responsive image">-->
+				</div>
+			</div> 
+		<!-- /jumbotron -->
+		
+		<!-- My Fair City -->
+		
+		<div class="container-fluid no-padding">
+			<img id="pixels" src="./Portland_Night_panorama.jpg" class="img-fluid" id="portlandpixels" width="1366px" height="276px" alt="Responsive image">
+		</div>
+		
+		<!-- /My Fair City-->
+		
+		<!-- Card Group -->
+			<div class="card-group" id = "Skills">
+				<div class="card">
+					<img class="card-img-top" id="Software Development" src="./sd3.jpg" height="250" width="auto" alt="Card image cap">
+					<div class="card-block">
+						<h4 class="card-title">Software Development</h4>
+						<p class="card-text">Developing coding skills in C#, Javascript, Python, SQL, HTML, CSS, ASP.NET, Node.js, Visual Studio, and GitHub, while practicing programmatic problem solving and creating front end and back end solutions.</p>
+						<p class="font-italic" class="card-text"><small class="text-muted">- Completing a comprehensive software development bootcamp, while utilizing documentation and developer support networks to identify resources for future projects and continued independent study.. -</small></p>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" id="Project Management" src="./WAFrontWinery.jpeg" height="250" width="auto" alt="Card image cap">
+					<div class="card-block">
+						<h4 class="card-title">Project Management</h4>
+						<p class="card-text">Applied Agile principles to project management at Owen Roe Winery as I designed and oversaw the construction of a winery to meet form and function goals, while simultaneously directing the production of high scoring wines from harvest to bottle.</p>
+						<p class="font-italic" class="card-text"><small class="text-muted">-  Created a winemaking application that yielded more reliable outcomes by integrating new data to provide predictive recommendations. -</small></p>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" id="Team Management" src="./Building-blocks.jpg" height="250" width="auto" alt="Card image cap">
+					<div class="card-block">
+						<h4 class="card-title">Team Management</h4>
+						<p class="card-text">Empowered and encouraged teams to implement solutions to winemaking challenges, creating a work environment where ideas were valued, autonomy was respected, and goals were shared.  </p>
+						<p class="font-italic" class="card-text"><small class="text-muted">- Led multinational teams of women and men to success, demonstrating diversity as an asset and inclusivity as a maxim, while fostering a culture that attracted and retained talent. -</small></p>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<!-- /Card Group -->
+		
+		<!-- Contact Info -->
+		<div class="card group" class="contact">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="card">
+						<div class="card-block">
+							<h2 class="card-title" class="font-italic" id="mytext" style="font-size:38px"><strong>Jeff W. Ferrell</strong></h2>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card">
+						<div class="card-block">
+							<h2 class="card-title" class="font-italic" id="mytext" style="font-size:38px"><strong>503.957.7157</strong></h2>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card">
+						<div class="card-block">
+							<h2 class="card-title" class="font-italic" id="mytext" style="font-size:38px"><strong>jwferrell78@gmail.com</strong></h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- /Contact Info -->
+		
+		<!-- About Me -->
+		
+	
+		<div id="bio" class="container-fluid text-center mb-0">						
+			<div>
+			<!-- <button class="btn btn-info btn-lg my-4" id="jqueryeffect1"><em><strong>Tech Academy - Software Development School</em></strong></button> -->
+			<button class="btn btn-info btn-lg my-4" id="jqueryeffect2"><em><strong>Vice President - Owen Roe Winery</em></strong></button><button class="btn btn-info btn-lg my-4" id="jqueryeffect3"><em><strong>General Manager - Owen Roe Winery</em></strong></button><button class="btn btn-info btn-lg my-4" id="jqueryeffect4"><em><strong>Lab Manager - Owen Roe Winery</em></strong></button>
+			</div>
+			<div id="target1">			
+				<h3 id="bio1" style="font-size:20px">Oversaw 60,000+ case production, 40+ labels, and more than 50 employees in four different winery locations. Managed and coached company-wide at all levels, while serving as cross-department coordinator. Competently and confidently interacted with staff, customers, vendors, and representatives of regulatory agencies. Modeled respectful, professional, and effective verbal and written communication. Analyzed and adjusted winemaking practices and purchases to improve product quality and brand profitability. Streamlined operations and shortened production timelines by employing new technologies and techniques. Encouraged and empowered employees to share ideas and feedback. Interpreted market performance data to inform case production and brand strategy. Established and maintained relationships with growers and brokers to secure quality fruit and bulk wine as needed. Managed and balanced cost across price points and facilities in order to improve margins. Complied with all local, state, and federal rules and regulations concerning the health and safety of staff, consumers, and the environment. </h3>
+			</div>	
+			<div id="target2">
+				<h3 id="bio2" style="font-size:20px">Oversaw 60,000+ case production, 40+ labels, and more than 50 employees in four different winery locations. Managed and coached company-wide at all levels, while serving as cross-department coordinator. Competently and confidently interacted with staff, customers, vendors, and representatives of regulatory agencies. Modeled respectful, professional, and effective verbal and written communication. Analyzed and adjusted winemaking practices and purchases to improve product quality and brand profitability. Streamlined operations and shortened production timelines by employing new technologies and techniques. Encouraged and empowered employees to share ideas and feedback. Interpreted market performance data to inform case production and brand strategy. Established and maintained relationships with growers and brokers to secure quality fruit and bulk wine as needed. Managed and balanced cost across price points and facilities in order to improve margins. Complied with all local, state, and federal rules and regulations concerning the health and safety of staff, consumers, and the environment. </h3>
+			</div>
+			<div id="target3">
+				<h3 id="bio3" style="font-size:20px">Responsible for equipment, facilities, hiring, scheduling, training, and corrective action. Oversaw winemaking from fruit to bottle, meeting every deadline. Managed winery logistics and coordinated trucking schedules. Interpreted lab and sensory data to evaluate wines. Maintained and exceeded established standards for wine quality. Improved product integrity and safety by minimizing opportunities for wine contamination and spoilage. Oversaw construction and retrofitting of two new winemaking facilities. Planned and executed operations move from original location to new facilities. </h3>
+			</div>
+			<div id="target4">
+				<h3 id="bio4" style="font-size:20px">Managed the winery’s database while tracking wine work, lab results, juice/wine volumes, and wine inputs. Conducted lab analyses on juice and wine via pH meter, thermometer, auto-titrator, spectrophotometer, portable density meter, refractometer, ebulliometer, carbodoseur, and an aeration/oxidation system. Collected data points for Brix, pH, TA, malic acid, alcohol, and SO2. Trained and managed lab assistants. </h3>
+			</div>		
+		</div>
+		
+		<!-- /About Me -->
+			
+		<!-- Responsive Image -->
+		<div class="container-fluid my-0 mt-0">
+			<div class="set7">
+				<div class="row text-center">
+					<div class="feelinlike text-center image">
+						<img id="underwater" src="./portland-oregon.jpg" class="img-fluid" width="100% \9;" height="100%" alt="Responsive image">
+						<div class="feelinlike">
+							<br />
+							<h6 style="font-size:32px">The Tech Academy - Portland OR - Current</h6>
+							<p id="education" class="font-italic" style="font-size:16px"><strong>-Completing a comprehensive multi-course software development program while learning full-stack software development skills. Employing local and remote version control to communicate progress and share work with instructors and the community while honing programmatic problem solving strategies.  -</strong></p>			
+							</br>
+							</br>
+							</br>
+							<h6 style="font-size:32px">University of Kansas - Lawrence, KS - B.A. - 2000 </h6>
+							<p id="education" class="font-italic" style="font-size:16px"><strong>-Liberal Arts and Sciences - Spanish Focus - 2000 - </strong></p>
+							</br>
+							</br>
+							</br>
+							</br>
+							<a href="https://github.com/Jeff-W-Ferrell/Library-Management-System" target="_blank"><h6 id="library" style="font-size:32px">Library Management System</h6></a>
+							<p id="projects" class="font-italic" style="font-size:16px"><strong>Created an SQL database containing multiple stored query procedures to manage several library branches, their books, and a host of borrowers.</strong></p>
+							</br>
+							<a href="https://github.com/Jeff-W-Ferrell/Academy-Pizza-Website" target="_blank"><h6 id="pizza" style="font-size:32px">Academy Pizza Website</h6>
+							<p id="projects" class="font-italic" style="font-size:16px"><strong>Developed a fictional restaurant website using HTML, CSS, Bootstrap, and Javascript that accepts customer orders and returns an itemized invoice. 
+</strong></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Resposive Image -->
+	
+	<!-- Footer -->
+		
+	<!-- /Footer -->
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <!-- Disabled this jquery source: <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"> /Disabled this jquery source </script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	
+	<script>
+		
+	$(document).ready(function() {
+		$( "#bio1" ).hide(function() {
+			$( "#bio2" ).hide(function() {
+				$( "#bio3" ).hide(function() {
+					$( "#bio4" ).hide(function() {
+					});
+				});
+			});
+		});
+	});
+	
+	$( "#jqueryeffect1" ).click(function() {
+		$( "#bio2" ).hide(function() {
+			$( "#bio3" ).hide(function() {
+				$( "#bio4" ).hide(function() {
+					$( "#bio1" ).slideToggle( "slow" );
+				});
+			});
+		});	
+	});
+	
+	$( "#jqueryeffect2" ).click(function() {
+		$( "#bio1" ).hide(function() {
+			$( "#bio3" ).hide(function() {
+				$( "#bio4" ).hide(function() {
+					$( "#bio2" ).slideToggle( "slow" );
+				});
+			});
+		});
+	});
+	
+	$( "#jqueryeffect3" ).click(function() {
+		$( "#bio1" ).hide(function() {
+			$( "#bio2" ).hide(function() {
+				$( "#bio4" ).hide(function() {
+					$( "#bio3" ).slideToggle( "slow" );
+				});	
+			});
+		});
+	});
+	
+	$( "#jqueryeffect4" ).click(function() {
+		$( "#bio1" ).hide(function() {
+			$( "#bio2" ).hide(function() {
+				$( "#bio3" ).hide(function() {
+					$( "#bio4" ).slideToggle( "slow" );
+				});
+			});
+		});
+	});
+	
+	</script>
+	</body>
+</html>
